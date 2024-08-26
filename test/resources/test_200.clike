@@ -1,0 +1,5 @@
+uint64_t test() {
+  uint64_t a = 0x1122334455667711;
+  uint64_t b = 64;
+  return a << b;
+}

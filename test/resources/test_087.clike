@@ -1,0 +1,6 @@
+uint64_t test() {
+  uint64_t x = 1;
+  uint64_t r = 0;
+  if (x == 1) r = 1;
+  return r;
+}

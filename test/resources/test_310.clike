@@ -1,0 +1,4 @@
+uint64_t test() {
+  const uint64_t c = 0xA5A5A5A5A5A5A5A5;
+  return ~c;
+}

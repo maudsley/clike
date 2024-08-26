@@ -1,0 +1,7 @@
+uint64_t test() {
+  if (-int16_t(1) < int16_t(0)) {
+    return 1;
+  } else {
+    return 0;
+  }
+}

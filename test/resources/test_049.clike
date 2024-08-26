@@ -1,0 +1,14 @@
+uint64_t test() {
+  uint64_t x = 0;
+  uint64_t y = 1;
+  uint64_t r = 0;
+  uint64_t tmp = 0;
+  if (x == 1) {
+    tmp = 1;
+  } else if (y == 1) {
+    r = 1;
+  } else {
+    tmp = 1;
+  }
+  return r;
+}

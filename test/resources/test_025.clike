@@ -1,0 +1,14 @@
+struct inner {
+  matrix_t mat[2][2];
+};
+
+struct object {
+  inner y[2][2];
+};
+
+uint64_t test() {
+  object x[2][2];
+  x[0][1].y[1][0].mat[1][1][0][1] = 123;
+  x[1][0].y[0][1].mat[0][0][1][0] = 111;
+  return x[0][1].y[1][0].mat[1][1][0][1];
+}

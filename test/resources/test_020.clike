@@ -1,0 +1,13 @@
+uint64_t func3(uint64_t x, uint64_t y) {
+  return x + y;
+}
+
+uint64_t func2() {
+  uint64_t a = 3;
+  return func3(a + 1, 4);
+}
+
+uint64_t test() {
+  uint64_t r = func2();
+  return r;
+}

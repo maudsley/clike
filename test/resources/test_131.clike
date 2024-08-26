@@ -1,0 +1,8 @@
+uint64_t test() {
+  uint64_t a = 1;
+  uint64_t b = 2;
+  uint64_t c = 3;
+  uint64_t d = 0;
+  uint64_t r = (d=a,0) || (d=b,0) || (d=c,0);
+  return d;
+}

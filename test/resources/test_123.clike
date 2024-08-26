@@ -1,0 +1,10 @@
+struct bad_type {
+  uint64_t val;
+};
+
+uint64_t test() {
+  bad_type x;
+  do {
+  } while (x);
+  return 0;
+}

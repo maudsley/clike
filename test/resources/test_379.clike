@@ -1,0 +1,4 @@
+uint64_t test() {
+  int8_t a = 123L;
+  return 1;
+}

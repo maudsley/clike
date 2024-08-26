@@ -1,0 +1,10 @@
+struct object {
+  uint64_t val;
+};
+
+uint64_t test() {
+  object obj;
+  obj.val = 1;
+  obj.val++;
+  return obj.val;
+}

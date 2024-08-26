@@ -1,0 +1,4 @@
+uint64_t test() {
+  break;
+  return 0;
+}

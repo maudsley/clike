@@ -1,0 +1,12 @@
+uint64_t subfunc() {
+  if (x) {
+    return 1;
+  } else {
+    return 0;
+  }
+}
+
+uint64_t test() {
+  uint64_t x = 123;
+  return subfunc();
+}

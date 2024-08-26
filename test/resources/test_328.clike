@@ -1,0 +1,5 @@
+uint64_t test() {
+  int64_t x = -100;
+  int64_t y = x << 1;
+  return uint64_t(y);
+}

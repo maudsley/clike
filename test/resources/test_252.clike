@@ -1,0 +1,7 @@
+const uint64_t func() {
+  return 123;
+}
+
+uint64_t test() {
+  return func();
+}

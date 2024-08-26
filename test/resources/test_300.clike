@@ -1,0 +1,4 @@
+uint64_t test() {
+  const uint64_t c = 2;
+  return -c;
+}

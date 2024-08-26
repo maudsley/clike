@@ -1,0 +1,5 @@
+uint64_t test() {
+  uint64_t x = 0xA5A5A5A5A5A5A5A5;
+  uint64_t y = ~~~x;
+  return y;
+}

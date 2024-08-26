@@ -1,0 +1,4 @@
+uint64_t test() {
+  uint64_t vals[1][0][2];
+  return vals[0][0][0];
+}

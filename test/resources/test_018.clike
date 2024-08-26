@@ -1,0 +1,13 @@
+struct inner {
+  uint64_t z;
+};
+
+struct outer {
+  inner y[3];
+};
+
+uint64_t test() {
+  outer x;
+  x.y[1].z = 123;
+  return x.y[1].z;
+}

@@ -1,0 +1,9 @@
+uint64_t test() {
+  uint64_t i = 0;
+  for (i = 0; i < 5; i++) {
+    if (i == 3) {
+      break;
+    }
+  }
+  return i;
+}

@@ -1,0 +1,4 @@
+uint64_t test() {
+  uint8_t x = 0x8ff;
+  return x;
+}

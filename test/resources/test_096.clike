@@ -1,0 +1,13 @@
+uint64_t test() {
+  uint64_t x = 1;
+  uint64_t r = 0;
+  switch (x) {
+  case 0:
+    uint64_t k = 0;
+  case 1:
+    k = 1;
+  default:
+    k = 2;
+  }
+  return r;
+}

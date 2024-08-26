@@ -1,0 +1,7 @@
+uint64_t test() {
+  uint64_t s = uint64_t(1 + 1);
+  matrix_t mat = matrix_t(s + 1, 2 + s);
+  mat[2][3] = 111;
+  vector_t vec = mat[2];
+  return vec[3];
+}

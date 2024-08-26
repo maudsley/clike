@@ -1,0 +1,15 @@
+matrix_t make_mat() {
+  return matrix_t(3, 3);
+}
+
+vector_t make_vec(uint64_t value) {
+  vector_t vec = vector_t(3);
+  vec[2] = value;
+  return vec;
+}
+
+uint64_t test() {
+  matrix_t mat = make_mat();
+  mat[1] = make_vec(123);
+  return mat[1][2];
+}

@@ -1,0 +1,8 @@
+uint64_t test() {
+  uint64_t x = 0;
+  x = 123;
+  uint64_t y[3];
+  y[0] = x;
+  x = 234;
+  return y[0];
+}

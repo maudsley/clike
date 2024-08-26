@@ -1,0 +1,8 @@
+uint64_t test() {
+  uint64_t a = 0x5555;
+  uint64_t b = 0x100;
+  uint64_t c = 0x10;
+  uint64_t r = 0;
+  uint64_t s = (r=a) % (r=b) % (r=c);
+  return r;
+}

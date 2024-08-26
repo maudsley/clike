@@ -1,0 +1,6 @@
+uint64_t test() {
+  uint64_t a = 0;
+  int8_t b = 1;
+  uint64_t r = a && b;
+  return r;
+}

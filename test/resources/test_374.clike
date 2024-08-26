@@ -1,0 +1,5 @@
+uint64_t test() {
+  int64_t a = 0xdeadbeefl;
+  int64_t b = 123l;
+  return 1;
+}

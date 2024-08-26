@@ -1,0 +1,7 @@
+uint64_t func(uint64_t x) {
+  return !x;
+}
+
+uint64_t test() {
+  return !func(0xA5A5A5A5A5A5A5A5);
+}

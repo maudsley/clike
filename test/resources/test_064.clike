@@ -1,0 +1,6 @@
+uint64_t test() {
+  for (uint64_t i = 0; i < 3; i++) {
+    return 123;
+  }
+  return 0;
+}

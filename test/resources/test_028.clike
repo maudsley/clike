@@ -1,0 +1,10 @@
+uint64_t func() {
+  uint64_t x = 123;
+  return x;
+}
+
+uint64_t test() {
+  uint64_t x = 789;
+  x = func();
+  return x;
+}

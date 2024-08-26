@@ -1,0 +1,10 @@
+uint64_t test() {
+  uint64_t out = 3735928559;
+  uint64_t mask;
+  uint64_t i;
+  for (i = 0; i < 8; i++) {
+    mask = -(out & 1);
+    out = (out >> 1) ^ (mask & 3988292384);
+  }
+  return (out & 4294967295);
+}

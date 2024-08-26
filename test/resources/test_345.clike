@@ -1,0 +1,7 @@
+uint64_t test() {
+  if (uint64_t(-1) < int8_t(0)) {
+    return 0;
+  } else {
+    return 0;
+  }
+}

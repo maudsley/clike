@@ -1,0 +1,9 @@
+uint64_t func(const uint64_t x) {
+  return x + 1;
+}
+
+uint64_t test() {
+  const uint64_t x = 1;
+  uint64_t y = func(x);
+  return y;
+}

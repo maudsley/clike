@@ -1,0 +1,9 @@
+uint64_t test() {
+  uint64_t x = 123;
+  uint64_t y = 1;
+  if (y == 1) {
+    uint64_t x;
+    x = 0; 
+  }
+  return x;
+}

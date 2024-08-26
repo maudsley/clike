@@ -1,0 +1,14 @@
+struct inner {
+  uint64_t val[2][2];
+};
+
+struct outer {
+  inner obj[2][2];
+};
+
+uint64_t test() {
+  outer x[2][2], y[2][2];
+  x[0][1].obj[1][0].val[0][1] = 111;
+  y = x;
+  return x[0][1].obj[1][0].val[0][1];
+}

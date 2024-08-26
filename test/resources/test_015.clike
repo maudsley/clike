@@ -1,0 +1,9 @@
+struct object {
+  uint64_t x;
+};
+
+uint64_t test() {
+  object s;
+  s.x = 123;
+  return s.x;
+}

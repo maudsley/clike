@@ -1,0 +1,8 @@
+uint64_t func() {
+  return 123;
+}
+
+uint64_t test() {
+  func() = 456;
+  return 123;
+}

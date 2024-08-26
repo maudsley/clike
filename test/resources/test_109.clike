@@ -1,0 +1,7 @@
+uint64_t test() {
+  uint64_t x = 0;
+  uint64_t a = 123;
+  uint64_t b = 456;
+  uint64_t y = (x ? a++ : b);
+  return a;
+}

@@ -1,0 +1,6 @@
+uint64_t test() {
+  uint64_t a[3][3][3];
+  uint64_t r = 0;
+  a[r=0][r=1][r=2] = 123;
+  return r;
+}

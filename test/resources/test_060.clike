@@ -1,0 +1,12 @@
+uint64_t func() {
+  for (uint64_t i = 0; i < 10; i++) {
+    if (i == 5) {
+      return i;
+    }
+  }
+  return 0;
+}
+
+uint64_t test() {
+  return func();
+}

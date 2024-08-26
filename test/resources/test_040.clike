@@ -1,0 +1,10 @@
+uint64_t test() {
+  uint64_t vals[3];
+  uint64_t i;
+  vals[0] = 123;
+  vals[1] = 234;
+  vals[2] = 345;
+  i = 2;
+  i = vals[i];
+  return i;
+}

@@ -1,0 +1,16 @@
+struct object {
+  uint64_t val[2];
+};
+
+object func() {
+  object x;
+  x.val[1] = 222;
+  x.val[0] = 111;
+  return x;
+}
+
+uint64_t test() {
+  object x;
+  x = func();
+  return x.val[1];
+}

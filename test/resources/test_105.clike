@@ -1,0 +1,11 @@
+uint64_t test() {
+  uint64_t r = 0;
+  for (uint64_t i = 0; ; i++) {
+    if (i < 4) {
+    } else {
+      r = i;
+      break;
+    }
+  }
+  return r;
+}

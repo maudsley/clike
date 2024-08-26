@@ -1,0 +1,6 @@
+uint64_t test() {
+  uint64_t x = 0;
+  int8_t a = 123;
+  int8_t b = 456;
+  return (x ? a : b);
+}

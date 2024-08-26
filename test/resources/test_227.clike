@@ -1,0 +1,8 @@
+uint64_t test() {
+  uint64_t a = 10;
+  uint64_t b = 5;
+  uint64_t c = 1;
+  uint64_t r = 0;
+  uint64_t s = (r=a) - (r=b) - (r=c);
+  return r;
+}

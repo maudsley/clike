@@ -1,0 +1,5 @@
+uint64_t test() {
+  int8_t x = int8_t(123);
+  int64_t y = x;
+  return uint64_t(y);
+}

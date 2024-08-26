@@ -1,0 +1,7 @@
+uint64_t test() {
+  uint64_t r = 0;
+  for (uint64_t i = 1, j = 2; i < 11; i++) {
+    r = r + 2;
+  }
+  return r;
+}

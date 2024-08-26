@@ -1,0 +1,24 @@
+struct object {
+  uint64_t val;
+};
+
+object func() {
+  uint64_t n = 0;
+  for (uint64_t i = 0; i < 3; i++) {
+    object obj;
+    for (uint64_t j = 0; j < 3; j++) {
+      if (i == 2) {
+        obj.val = 123;
+        return obj;
+      }
+    }
+  }
+  object obj;
+  obj.val = 456;
+  return obj;
+}
+
+uint64_t test() {
+  object obj = func();
+  return obj.val;
+}

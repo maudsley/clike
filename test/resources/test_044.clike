@@ -1,0 +1,11 @@
+uint64_t test() {
+  uint64_t a, b;
+  a = 111;
+  b = 1;
+  if (a == 222) {
+    b = 2;
+  } else {
+    b = 3;
+  }
+  return b;
+}

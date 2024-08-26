@@ -1,0 +1,11 @@
+uint64_t other(uint64_t x[3]) {
+  return x[0] + x[1] + x[2];
+}
+
+uint64_t test() {
+  uint64_t x[3];
+  x[0] = 1;
+  x[1] = 1;
+  x[2] = 1;
+  return other(x);
+}

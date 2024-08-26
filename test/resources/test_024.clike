@@ -1,0 +1,10 @@
+uint64_t test() {
+  matrix_t mat;
+  vector_t vec;
+  vec[1] = 234;
+  mat[1] = vec;
+  mat[2] = mat[1];
+  mat[2][1] = 111;
+  vec = mat[2];
+  return vec[1];
+}

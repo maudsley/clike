@@ -1,0 +1,8 @@
+uint64_t func() {
+  return 1;
+}
+
+uint64_t test() {
+  uint64_t y = func()++;
+  return 2;
+}

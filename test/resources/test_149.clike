@@ -1,0 +1,10 @@
+struct bad_type {
+  uint64_t val;
+};
+
+uint64_t test() {
+  bad_type a;
+  uint64_t b = 1;
+  uint64_t r = a && b;
+  return r;
+}

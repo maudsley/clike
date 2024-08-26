@@ -1,0 +1,8 @@
+uint64_t subfunc() {
+  return x;
+}
+
+uint64_t test() {
+  uint64_t x = 123;
+  return subfunc();
+}

@@ -1,0 +1,7 @@
+uint64_t test() {
+  int8_t x1 = 1;
+  int16_t x2 = 1;
+  int32_t x3 = 1;
+  int64_t x4 = 1;
+  return uint64_t(x1 + x2 + x3 + x4);
+}

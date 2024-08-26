@@ -1,0 +1,9 @@
+struct bad_type {
+  uint64_t val;
+};
+
+uint64_t test() {
+  bad_type i;
+  uint64_t x[3];
+  return x[i];
+}

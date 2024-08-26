@@ -1,0 +1,13 @@
+struct bad_type {
+  uint64_t val;
+};
+
+uint64_t test() {
+  bad_type x;
+  uint64_t r = 0;
+  switch (x) {
+  default:
+    r = 1;
+  }
+  return r;
+}

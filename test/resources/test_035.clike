@@ -1,0 +1,13 @@
+uint64_t func(uint64_t y[5]) {
+  uint64_t z;
+  z = y[1];
+  return z;
+}
+
+uint64_t test() {
+  uint64_t x[5];
+  uint64_t r;
+  x[1] = 789;
+  r = func(x);
+  return r;
+}

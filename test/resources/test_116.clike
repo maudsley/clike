@@ -1,0 +1,8 @@
+uint64_t func_true() {
+  return 123;
+}
+
+uint64_t test() {
+  uint64_t x = 1;
+  return (x ? func_true() : uint64_t(456));
+}

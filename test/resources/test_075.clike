@@ -1,0 +1,8 @@
+uint64_t test() {
+  vector_t vec = vector_t(3);
+  vec[0] = 123;
+  vec[1] = 234;
+  vec[2] = 345;
+  vector_t vec2 = vec;
+  return vec2[1];
+}

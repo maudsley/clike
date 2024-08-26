@@ -1,0 +1,7 @@
+uint64_t test() {
+  uint64_t i = 0;
+  do {
+    i++;
+  } while (i < 5);
+  return i;
+}

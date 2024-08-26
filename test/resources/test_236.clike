@@ -1,0 +1,5 @@
+uint64_t test() {
+  uint64_t a = 15;
+  uint64_t b = 6;
+  return a % b;
+}

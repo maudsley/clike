@@ -1,0 +1,14 @@
+uint64_t test() {
+  uint64_t n = 0;
+  for (uint64_t i = 0; i < 3; i++) {
+    for (uint64_t j = 0; j < 3; j++) {
+      if (i == 2) {
+        if (j == 1) {
+          continue;
+        }
+      }
+      n++;
+    }
+  }
+  return n;
+}

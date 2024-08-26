@@ -1,0 +1,5 @@
+uint64_t test() {
+  uint64_t x[10];
+  x[3] = 456;
+  return x[3];
+}

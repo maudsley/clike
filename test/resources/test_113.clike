@@ -1,0 +1,10 @@
+struct bad_type {
+  uint64_t value;
+};
+
+uint64_t test() {
+  bad_type x;
+  uint64_t a = 123;
+  uint64_t b = 456;
+  return (x ? a : b);
+}

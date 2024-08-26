@@ -1,0 +1,10 @@
+uint64_t test() {
+  uint64_t k = 1;
+  uint64_t r = 0;
+  if (!k) {
+    r = 123;
+  } else {
+    r = 456;
+  }
+  return r;
+}
